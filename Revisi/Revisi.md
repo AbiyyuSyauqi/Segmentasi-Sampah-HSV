@@ -2,8 +2,8 @@ RINGKASAN REVISI PROGRAM
 PEMROSESAN BATCH OTOMATIS
 Program yang awalnya hanya memproses satu gambar tunggal telah diubah menjadi pemrosesan massal (batch processing). Program kini menggunakan pustaka os dan glob untuk menelusuri, mengekstrak, dan mengeksekusi 4752 gambar sekaligus secara otomatis dari dataset realwaste.zip di lingkungan Google Colab.
 
-IMPLEMENTASI PUSTAKA SCIKIT-FUZZY UNTUK FCM
-Mengubah pendekatan perhitungan algoritma Fuzzy C-Means (FCM) dari komputasi matematis manual menjadi pemanfaatan pustaka standar industri skfuzzy.cluster.cmeans (scikit-fuzzy). Peralihan ke pustaka eksternal ini secara drastis meningkatkan efisiensi waktu komputasi, stabilitas iterasi pencarian centroid, dan mencegah kebocoran memori saat menangani dataset berukuran besar.
+IMPLEMENTASI LIBRARY SCIKIT-FUZZY UNTUK FCM
+Mengubah pendekatan perhitungan algoritma Fuzzy C-Means (FCM) dari komputasi matematis manual menjadi pemanfaatan pustaka standar industri skfuzzy.cluster.cmeans (scikit-fuzzy). Peralihan ke pustaka eksternal ini turut mengubah struktur keluaran program; FCM kini difokuskan untuk menghasilkan satu output segmentasi menggunakan metrik jarak bawaan pustaka (Euclidean). Hal ini merevisi arsitektur manual sebelumnya yang memaksakan penggunaan tiga metrik jarak berbeda pada FCM. Penggunaan pustaka ini secara drastis meningkatkan efisiensi waktu komputasi, stabilitas iterasi pencarian centroid, dan mencegah kebocoran memori saat menangani dataset berukuran besar.
 
 PENAMBAHAN EVALUASI AKURASI DAN KEPUTUSAN MAYORITAS PIKSEL
 Menambahkan logika pemetaan label asli (ground truth) untuk 9 kelas dataset dari UCI Machine Learning. Folder Food Organics dan Vegetation dipetakan sebagai label Organik, sedangkan 7 folder lainnya dipetakan sebagai Anorganik. Selain itu, pengambilan keputusan akhir model kini menggunakan logika "voting piksel", di mana gambar dilabeli "Organik" hanya jika lebih dari 50% piksel hasil segmentasinya masuk ke kluster organik. Label hasil prediksi ini kemudian dicocokkan dengan label asli untuk menghasilkan persentase akurasi biner (100 atau 0).
