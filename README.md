@@ -3,7 +3,7 @@
 Repositori ini berisi implementasi dari tugas Project KDKA 2025 C pada program studi S1 Kecerdasan Buatan, Universitas Negeri Surabaya. Proyek ini memfokuskan pada pengujian dan komparasi kinerja algoritma *Unsupervised Learning* berskala besar dalam melakukan segmentasi dan klasifikasi citra sampah.
 
 ## Tim Pengembang
-1. **Abiyyu Syauqi Admaja** *(Pengembangan Algoritma K-Means Clustering from scratch, Implementasi Pustaka Fuzzy C-Means (FCM), Perancangan Arsitektur Batch Processing, Pemetaan Ground Truth & Akurasi Piksel, Rule-based Heuristics, Analisis Evaluasi Metrik, dan Pemeliharaan Repositori)*
+1. **Abiyyu Syauqi Admaja** *(Pengembangan Algoritma K-Means Clustering from scratch, Implementasi Pustaka Fuzzy C-Means (FCM), Perancangan Arsitektur Batch Processing, Pemetaan Ground Truth & Akurasi Piksel, Rule-based Heuristics, Analisis Evaluasi Metrik, Pemeliharaan Repositori dan Penulisan Teknikal Report)*
 2. **Ilmanza Nafis Adidarma** *(Image Preprocessing, Visualisasi Data Spasial, Komparasi Waktu Eksekusi, dan Silhouette Scoring)*
 3. **Evans Lordy Arrow Sarumaha** *(Perekapan Dokumentasi Gambar)*
 
