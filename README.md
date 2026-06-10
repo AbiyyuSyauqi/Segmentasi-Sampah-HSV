@@ -21,11 +21,11 @@ Proyek ini mengimplementasikan dan membandingkan dua pendekatan klasterisasi sec
 - **Visualisasi Komparasi Standar Publikasi:** Menghasilkan grafik bar dan *scatter plot tradeoff* beresolusi tinggi (300 DPI) untuk analisis metrik.
 
 ## Teknologi dan Pustaka/Library yang Digunakan
-- **Python 3** (Bahasa Pemrograman Utama)
-- **OpenCV (`cv2`)** - Manipulasi dan konversi ruang warna citra (BGR ke HSV/RGB).
-- **NumPy** - Komputasi matriks, vektorisasi, dan *broadcasting*.
-- **Pandas** - Pembuatan dan ekspor laporan evaluasi data tabular.
-- **Scikit-Fuzzy (`skfuzzy`)** - Mesin komputasi klasterisasi probabilitas FCM.
-- **Scikit-Learn (`sklearn`)** - Evaluasi validasi klaster menggunakan *Silhouette Score*.
-- **Matplotlib** - Visualisasi hasil *masking* segmentasi dan *plotting* grafik evaluasi.
-- **OS & Glob** - Manajemen direktori dan penelusuran *path* dataset secara otomatis.
+1. **Python 3** (Bahasa Pemrograman Utama)
+2. **OpenCV (`cv2`)** - Manipulasi dan konversi ruang warna citra (BGR ke HSV/RGB).
+3. **NumPy** - Komputasi matriks, vektorisasi, dan *broadcasting*.
+4. **Pandas** - Pembuatan dan ekspor laporan evaluasi data tabular.
+5. **Scikit-Fuzzy (`skfuzzy`)** - Mesin komputasi klasterisasi probabilitas FCM.
+6. **Scikit-Learn (`sklearn`)** - Evaluasi validasi klaster menggunakan *Silhouette Score*.
+7. **Matplotlib** - Visualisasi hasil *masking* segmentasi dan *plotting* grafik evaluasi.
+8. **OS & Glob** - Manajemen direktori dan penelusuran *path* dataset secara otomatis.
